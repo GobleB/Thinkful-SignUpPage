@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Analog Sea Sign Up</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<link rel="stylesheet" href="signuppage.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="ChallengeDocs/AnalogSea.png" alt="Analog Sea" class="logo">
+		</header>
+		<main>
+			<h2>Sign Up</h2>
+			<form action="/signup" method="post">
+				<label for="email">Email</label>
+				<br>
+				<input type="email" name="email" placeholder="foo@bar.com" required>
+				<br>
+				<label for="password">Password</label>
+				<br>
+				<input type="text" name="password" placeholder="1234passwOrd" required>
+				<br>
+				<button type="submit">Sign Up</button>
+			</form>
+			<div>
+				<a href="/forgot-password/new">Forgot Password?</a>
+			</div>
+		</main>
+		<footer>
+			<div>Already have an account? <a href="/login">Log in</a></div>
+		</footer>
+	</div>
+</body>
+</html>
